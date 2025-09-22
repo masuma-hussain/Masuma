@@ -1,0 +1,7 @@
+{
+	"_Type": "Action.Type.SetLanguage",
+	"ActionResult": {
+		"_Name": "LanguageSwitch"
+	},
+	"Language": "en"
+}

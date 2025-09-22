@@ -71,6 +71,8 @@ let demosampleapp_actions_genericbannermessage_action = __webpack_require__(/*! 
 let demosampleapp_actions_genericmessagebox_action = __webpack_require__(/*! ./demosampleapp/Actions/GenericMessageBox.action */ "./build.definitions/demosampleapp/Actions/GenericMessageBox.action")
 let demosampleapp_actions_genericnavigation_action = __webpack_require__(/*! ./demosampleapp/Actions/GenericNavigation.action */ "./build.definitions/demosampleapp/Actions/GenericNavigation.action")
 let demosampleapp_actions_generictoastmessage_action = __webpack_require__(/*! ./demosampleapp/Actions/GenericToastMessage.action */ "./build.definitions/demosampleapp/Actions/GenericToastMessage.action")
+let demosampleapp_actions_languageswitchen_action = __webpack_require__(/*! ./demosampleapp/Actions/LanguageSwitchEN.action */ "./build.definitions/demosampleapp/Actions/LanguageSwitchEN.action")
+let demosampleapp_actions_languageswitchfi_action = __webpack_require__(/*! ./demosampleapp/Actions/LanguageSwitchFI.action */ "./build.definitions/demosampleapp/Actions/LanguageSwitchFI.action")
 let demosampleapp_actions_logging_loguploadfailure_action = __webpack_require__(/*! ./demosampleapp/Actions/Logging/LogUploadFailure.action */ "./build.definitions/demosampleapp/Actions/Logging/LogUploadFailure.action")
 let demosampleapp_actions_logging_loguploadsuccessful_action = __webpack_require__(/*! ./demosampleapp/Actions/Logging/LogUploadSuccessful.action */ "./build.definitions/demosampleapp/Actions/Logging/LogUploadSuccessful.action")
 let demosampleapp_actions_logging_uploadlog_action = __webpack_require__(/*! ./demosampleapp/Actions/Logging/UploadLog.action */ "./build.definitions/demosampleapp/Actions/Logging/UploadLog.action")
@@ -106,6 +108,7 @@ let demosampleapp_rules_application_onwillupdate_js = __webpack_require__(/*! ./
 let demosampleapp_rules_application_resetappsettingsandlogout_js = __webpack_require__(/*! ./demosampleapp/Rules/Application/ResetAppSettingsAndLogout.js */ "./build.definitions/demosampleapp/Rules/Application/ResetAppSettingsAndLogout.js")
 let demosampleapp_rules_com_sap_edm_sampleservice_v4_errorarchive_checkforsyncerror_js = __webpack_require__(/*! ./demosampleapp/Rules/com_sap_edm_sampleservice_v4/ErrorArchive_CheckForSyncError.js */ "./build.definitions/demosampleapp/Rules/com_sap_edm_sampleservice_v4/ErrorArchive_CheckForSyncError.js")
 let demosampleapp_rules_emailvalidation_js = __webpack_require__(/*! ./demosampleapp/Rules/EmailValidation.js */ "./build.definitions/demosampleapp/Rules/EmailValidation.js")
+let demosampleapp_rules_gettargetlanguagecaption_js = __webpack_require__(/*! ./demosampleapp/Rules/GetTargetLanguageCaption.js */ "./build.definitions/demosampleapp/Rules/GetTargetLanguageCaption.js")
 let demosampleapp_rules_logging_loglevels_js = __webpack_require__(/*! ./demosampleapp/Rules/Logging/LogLevels.js */ "./build.definitions/demosampleapp/Rules/Logging/LogLevels.js")
 let demosampleapp_rules_logging_settracecategories_js = __webpack_require__(/*! ./demosampleapp/Rules/Logging/SetTraceCategories.js */ "./build.definitions/demosampleapp/Rules/Logging/SetTraceCategories.js")
 let demosampleapp_rules_logging_setuserloglevel_js = __webpack_require__(/*! ./demosampleapp/Rules/Logging/SetUserLogLevel.js */ "./build.definitions/demosampleapp/Rules/Logging/SetUserLogLevel.js")
@@ -113,6 +116,7 @@ let demosampleapp_rules_logging_togglelogging_js = __webpack_require__(/*! ./dem
 let demosampleapp_rules_logging_tracecategories_js = __webpack_require__(/*! ./demosampleapp/Rules/Logging/TraceCategories.js */ "./build.definitions/demosampleapp/Rules/Logging/TraceCategories.js")
 let demosampleapp_rules_logging_userlogsetting_js = __webpack_require__(/*! ./demosampleapp/Rules/Logging/UserLogSetting.js */ "./build.definitions/demosampleapp/Rules/Logging/UserLogSetting.js")
 let demosampleapp_rules_service_initialize_js = __webpack_require__(/*! ./demosampleapp/Rules/Service/Initialize.js */ "./build.definitions/demosampleapp/Rules/Service/Initialize.js")
+let demosampleapp_rules_switchlanguage_js = __webpack_require__(/*! ./demosampleapp/Rules/SwitchLanguage.js */ "./build.definitions/demosampleapp/Rules/SwitchLanguage.js")
 let demosampleapp_services_com_sap_edm_sampleservice_v4_service = __webpack_require__(/*! ./demosampleapp/Services/com_sap_edm_sampleservice_v4.service */ "./build.definitions/demosampleapp/Services/com_sap_edm_sampleservice_v4.service")
 let demosampleapp_styles_styles_css = __webpack_require__(/*! ./demosampleapp/Styles/Styles.css */ "./build.definitions/demosampleapp/Styles/Styles.css")
 let demosampleapp_styles_styles_less = __webpack_require__(/*! ./demosampleapp/Styles/Styles.less */ "./build.definitions/demosampleapp/Styles/Styles.less")
@@ -157,6 +161,8 @@ module.exports = {
 	demosampleapp_actions_genericmessagebox_action : demosampleapp_actions_genericmessagebox_action,
 	demosampleapp_actions_genericnavigation_action : demosampleapp_actions_genericnavigation_action,
 	demosampleapp_actions_generictoastmessage_action : demosampleapp_actions_generictoastmessage_action,
+	demosampleapp_actions_languageswitchen_action : demosampleapp_actions_languageswitchen_action,
+	demosampleapp_actions_languageswitchfi_action : demosampleapp_actions_languageswitchfi_action,
 	demosampleapp_actions_logging_loguploadfailure_action : demosampleapp_actions_logging_loguploadfailure_action,
 	demosampleapp_actions_logging_loguploadsuccessful_action : demosampleapp_actions_logging_loguploadsuccessful_action,
 	demosampleapp_actions_logging_uploadlog_action : demosampleapp_actions_logging_uploadlog_action,
@@ -192,6 +198,7 @@ module.exports = {
 	demosampleapp_rules_application_resetappsettingsandlogout_js : demosampleapp_rules_application_resetappsettingsandlogout_js,
 	demosampleapp_rules_com_sap_edm_sampleservice_v4_errorarchive_checkforsyncerror_js : demosampleapp_rules_com_sap_edm_sampleservice_v4_errorarchive_checkforsyncerror_js,
 	demosampleapp_rules_emailvalidation_js : demosampleapp_rules_emailvalidation_js,
+	demosampleapp_rules_gettargetlanguagecaption_js : demosampleapp_rules_gettargetlanguagecaption_js,
 	demosampleapp_rules_logging_loglevels_js : demosampleapp_rules_logging_loglevels_js,
 	demosampleapp_rules_logging_settracecategories_js : demosampleapp_rules_logging_settracecategories_js,
 	demosampleapp_rules_logging_setuserloglevel_js : demosampleapp_rules_logging_setuserloglevel_js,
@@ -199,6 +206,7 @@ module.exports = {
 	demosampleapp_rules_logging_tracecategories_js : demosampleapp_rules_logging_tracecategories_js,
 	demosampleapp_rules_logging_userlogsetting_js : demosampleapp_rules_logging_userlogsetting_js,
 	demosampleapp_rules_service_initialize_js : demosampleapp_rules_service_initialize_js,
+	demosampleapp_rules_switchlanguage_js : demosampleapp_rules_switchlanguage_js,
 	demosampleapp_services_com_sap_edm_sampleservice_v4_service : demosampleapp_services_com_sap_edm_sampleservice_v4_service,
 	demosampleapp_styles_styles_css : demosampleapp_styles_styles_css,
 	demosampleapp_styles_styles_less : demosampleapp_styles_styles_less,
@@ -492,6 +500,25 @@ function EmailValidation(context) {
     //If @ is present in the email value, return true to indicate validation is successful
     return true;
   }
+}
+
+/***/ }),
+
+/***/ "./build.definitions/demosampleapp/Rules/GetTargetLanguageCaption.js":
+/*!***************************************************************************!*\
+  !*** ./build.definitions/demosampleapp/Rules/GetTargetLanguageCaption.js ***!
+  \***************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ GetTargetLanguageCaption)
+/* harmony export */ });
+function GetTargetLanguageCaption(context) {
+  let currentLang = context.getLanguage();
+  // Show the target language (what the user will switch to)
+  return currentLang === 'en' ? 'FI' : 'EN';
 }
 
 /***/ }),
@@ -798,6 +825,33 @@ function Initialize(context) {
   }).catch(() => {
     return false;
   });
+}
+
+/***/ }),
+
+/***/ "./build.definitions/demosampleapp/Rules/SwitchLanguage.js":
+/*!*****************************************************************!*\
+  !*** ./build.definitions/demosampleapp/Rules/SwitchLanguage.js ***!
+  \*****************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ SwitchLanguage)
+/* harmony export */ });
+async function SwitchLanguage(context) {
+  // Get current app language
+  let currentLang = context.getLanguage();
+
+  // Toggle language
+  let targetLang = currentLang === 'en' ? 'fi' : 'en';
+
+  // Trigger action
+  await context.executeAction(targetLang === 'fi' ? '/demosampleapp/Actions/LanguageSwitchFI.action' : '/demosampleapp/Actions/LanguageSwitchEN.action');
+
+  // Refresh page so translations are applied
+  context.getPageProxy().redraw();
 }
 
 /***/ }),
@@ -1149,7 +1203,7 @@ module.exports = {"Controls":[{"_Type":"Control.Type.SectionedTable","_Name":"Se
   \*********************************************************/
 /***/ ((module) => {
 
-module.exports = {"Controls":[{"FilterFeedbackBar":{"ShowAllFilters":false,"_Type":"Control.Type.FilterFeedbackBar"},"_Type":"Control.Type.SectionedTable","_Name":"SectionedTable0","Sections":[{"_Type":"Section.Type.ButtonTable","_Name":"SectionButtonTable0","Visible":true,"EmptySection":{"FooterVisible":false},"Separators":{"TopSectionSeparator":false,"BottomSectionSeparator":true,"HeaderSeparator":true,"FooterSeparator":true,"ControlSeparator":true},"Buttons":[{"_Type":"ButtonTable.Type.Button","_Name":"ButtonTableTypeButton0","Title":"Customers","Alignment":"Center","ButtonType":"Text","Semantic":"Tint","Image":"sap-icon://customer","ImagePosition":"Leading","FullWidth":false,"Visible":true,"Enabled":true,"OnPress":"/demosampleapp/Actions/NavToCustomers_List.action"}],"Layout":{"LayoutType":"Vertical","HorizontalAlignment":"Leading"}}]}],"_Type":"Page","_Name":"Main","ActionBar":{"Items":[{"_Type":"Control.Type.ActionBarItem","_Name":"ActionBarItem0","Caption":"User Menu","Icon":"sap-icon://customer","Position":"Right","IsIconCircular":false,"Visible":true,"OnPress":"/demosampleapp/Actions/Application/UserMenuPopover.action"}],"_Name":"ActionBar1","_Type":"Control.Type.ActionBar","Caption":"Main","PrefersLargeCaption":true}}
+module.exports = {"Controls":[{"FilterFeedbackBar":{"ShowAllFilters":false,"_Type":"Control.Type.FilterFeedbackBar"},"_Type":"Control.Type.SectionedTable","_Name":"SectionedTable0","Sections":[{"Separators":{"TopSectionSeparator":false,"BottomSectionSeparator":true,"HeaderSeparator":true,"FooterSeparator":true,"ControlSeparator":true},"Layout":{"LayoutType":"Vertical","HorizontalAlignment":"Leading"},"_Type":"Section.Type.ButtonTable","_Name":"SectionButtonTable0","Visible":true,"EmptySection":{"FooterVisible":false},"Buttons":[{"_Type":"ButtonTable.Type.Button","_Name":"ButtonTableTypeButton0","Title":"$(L,'Customers')","Alignment":"Center","ButtonType":"Text","Semantic":"Tint","Image":"sap-icon://customer","ImagePosition":"Leading","FullWidth":false,"Visible":true,"Enabled":true,"OnPress":"/demosampleapp/Actions/NavToCustomers_List.action"}]}]}],"_Type":"Page","_Name":"Main","ActionBar":{"Items":[{"_Type":"Control.Type.ActionBarItem","_Name":"LanguageButton","Caption":"/demosampleapp/Rules/GetTargetLanguageCaption.js","Position":"Right","IsIconCircular":false,"Visible":true,"OnPress":"/demosampleapp/Rules/SwitchLanguage.js"},{"_Type":"Control.Type.ActionBarItem","_Name":"ActionBarItem0","Caption":"User Menu","Icon":"sap-icon://customer","Position":"Right","IsIconCircular":false,"Visible":true,"OnPress":"/demosampleapp/Actions/Application/UserMenuPopover.action"}],"_Name":"ActionBar1","_Type":"Control.Type.ActionBar","Caption":"Main","PrefersLargeCaption":true}}
 
 /***/ }),
 
@@ -1159,7 +1213,7 @@ module.exports = {"Controls":[{"FilterFeedbackBar":{"ShowAllFilters":false,"_Typ
   \*******************************************/
 /***/ ((module) => {
 
-module.exports = {"_Name":"demosampleapp","Version":"/demosampleapp/Globals/Application/AppDefinition_Version.global","MainPage":"/demosampleapp/Pages/Main.page","OnLaunch":"/demosampleapp/Rules/Service/Initialize.js","OnWillUpdate":"/demosampleapp/Rules/Application/OnWillUpdate.js","OnDidUpdate":"/demosampleapp/Rules/Service/Initialize.js","Styles":"/demosampleapp/Styles/Styles.css","Localization":"/demosampleapp/i18n/i18n.properties","_SchemaVersion":"25.6","StyleSheets":{"Styles":{"css":"/demosampleapp/Styles/Styles.light.css","ios":"/demosampleapp/Styles/Styles.light.nss","android":"/demosampleapp/Styles/Styles.light.json"}},"SDKStyles":{"ios":"/demosampleapp/Styles/Styles.light.nss","android":"/demosampleapp/Styles/Styles.light.json"}}
+module.exports = {"MainPage":"/demosampleapp/Pages/Main.page","OnLaunch":["/demosampleapp/Rules/Service/Initialize.js"],"OnWillUpdate":"/demosampleapp/Rules/Application/OnWillUpdate.js","OnDidUpdate":"/demosampleapp/Rules/Service/Initialize.js","Styles":"/demosampleapp/Styles/Styles.css","Version":"/demosampleapp/Globals/Application/AppDefinition_Version.global","Localization":"/demosampleapp/i18n/i18n.properties","_SchemaVersion":"25.6","_Name":"demosampleapp","StyleSheets":{"Styles":{"css":"/demosampleapp/Styles/Styles.light.css","ios":"/demosampleapp/Styles/Styles.light.nss","android":"/demosampleapp/Styles/Styles.light.json"}},"SDKStyles":{"ios":"/demosampleapp/Styles/Styles.light.nss","android":"/demosampleapp/Styles/Styles.light.json"}}
 
 /***/ }),
 
@@ -1390,6 +1444,26 @@ module.exports = {"_Type":"Action.Type.Navigation","ActionResult":{"_Name":"Gene
 /***/ ((module) => {
 
 module.exports = {"_Type":"Action.Type.ToastMessage","ActionResult":{"_Name":"GenericToastMessage"},"Message":"Message"}
+
+/***/ }),
+
+/***/ "./build.definitions/demosampleapp/Actions/LanguageSwitchEN.action":
+/*!*************************************************************************!*\
+  !*** ./build.definitions/demosampleapp/Actions/LanguageSwitchEN.action ***!
+  \*************************************************************************/
+/***/ ((module) => {
+
+module.exports = {"_Type":"Action.Type.SetLanguage","ActionResult":{"_Name":"LanguageSwitch"},"Language":"en"}
+
+/***/ }),
+
+/***/ "./build.definitions/demosampleapp/Actions/LanguageSwitchFI.action":
+/*!*************************************************************************!*\
+  !*** ./build.definitions/demosampleapp/Actions/LanguageSwitchFI.action ***!
+  \*************************************************************************/
+/***/ ((module) => {
+
+module.exports = {"_Type":"Action.Type.SetLanguage","ActionResult":{"_Name":"LanguageSwitch"},"Language":"fi"}
 
 /***/ }),
 

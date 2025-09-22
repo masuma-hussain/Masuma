@@ -1,9 +1,13 @@
 {
-	"Application": "/home/user/projects/demosampleapp/Application.app",
+	"Application": "/home/user/projects/Masuma/Application.app",
 	"Target": "Mobile Services",
 	"OtherApps": [
 		{
 			"Application": "/home/user/projects/demosampleapp/Application.app",
+			"Target": "Mobile Services"
+		},
+		{
+			"Application": "/home/user/projects/Masuma/Application.app",
 			"Target": "Mobile Services"
 		}
 	]

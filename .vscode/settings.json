@@ -9,8 +9,10 @@
         },
         "right": {
             "visible": true,
-            "width": 285
-        },
-        "device": "phone"
+            "width": 229
+        }
+    },
+    "mdk.i18n": {
+        "displayLanguages": "i18n,i18n_en,i18n_fi"
     }
 }

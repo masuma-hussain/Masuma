@@ -1,2 +1,2 @@
 Pass:
-Generated bundle file /home/user/projects/Masuma/.build/demosampleapp/.build/uploadBundle.zip
+Generated bundle file /home/user/projects/demosampleapp/.build/demosampleapp/.build/uploadBundle.zip
