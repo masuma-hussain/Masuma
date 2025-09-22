@@ -7,7 +7,27 @@
   \**************************************************************/
 /***/ ((module) => {
 
-module.exports = ""
+module.exports = "\nCustomers=Customers\nLanguage=EN"
+
+/***/ }),
+
+/***/ "./build.definitions/demosampleapp/i18n/i18n_en.properties":
+/*!*****************************************************************!*\
+  !*** ./build.definitions/demosampleapp/i18n/i18n_en.properties ***!
+  \*****************************************************************/
+/***/ ((module) => {
+
+module.exports = "\nCustomers=Customers\nLanguage=EN"
+
+/***/ }),
+
+/***/ "./build.definitions/demosampleapp/i18n/i18n_fi.properties":
+/*!*****************************************************************!*\
+  !*** ./build.definitions/demosampleapp/i18n/i18n_fi.properties ***!
+  \*****************************************************************/
+/***/ ((module) => {
+
+module.exports = "\nCustomers=Asiakkaat\nLanguage=FI"
 
 /***/ }),
 
@@ -64,6 +84,8 @@ let demosampleapp_globals_application_appdefinition_version_global = __webpack_r
 let demosampleapp_globals_application_applicationname_global = __webpack_require__(/*! ./demosampleapp/Globals/Application/ApplicationName.global */ "./build.definitions/demosampleapp/Globals/Application/ApplicationName.global")
 let demosampleapp_globals_application_supportemail_global = __webpack_require__(/*! ./demosampleapp/Globals/Application/SupportEmail.global */ "./build.definitions/demosampleapp/Globals/Application/SupportEmail.global")
 let demosampleapp_globals_application_supportphone_global = __webpack_require__(/*! ./demosampleapp/Globals/Application/SupportPhone.global */ "./build.definitions/demosampleapp/Globals/Application/SupportPhone.global")
+let demosampleapp_i18n_i18n_en_properties = __webpack_require__(/*! ./demosampleapp/i18n/i18n_en.properties */ "./build.definitions/demosampleapp/i18n/i18n_en.properties")
+let demosampleapp_i18n_i18n_fi_properties = __webpack_require__(/*! ./demosampleapp/i18n/i18n_fi.properties */ "./build.definitions/demosampleapp/i18n/i18n_fi.properties")
 let demosampleapp_i18n_i18n_properties = __webpack_require__(/*! ./demosampleapp/i18n/i18n.properties */ "./build.definitions/demosampleapp/i18n/i18n.properties")
 let demosampleapp_jsconfig_json = __webpack_require__(/*! ./demosampleapp/jsconfig.json */ "./build.definitions/demosampleapp/jsconfig.json")
 let demosampleapp_pages_application_about_page = __webpack_require__(/*! ./demosampleapp/Pages/Application/About.page */ "./build.definitions/demosampleapp/Pages/Application/About.page")
@@ -148,6 +170,8 @@ module.exports = {
 	demosampleapp_globals_application_applicationname_global : demosampleapp_globals_application_applicationname_global,
 	demosampleapp_globals_application_supportemail_global : demosampleapp_globals_application_supportemail_global,
 	demosampleapp_globals_application_supportphone_global : demosampleapp_globals_application_supportphone_global,
+	demosampleapp_i18n_i18n_en_properties : demosampleapp_i18n_i18n_en_properties,
+	demosampleapp_i18n_i18n_fi_properties : demosampleapp_i18n_i18n_fi_properties,
 	demosampleapp_i18n_i18n_properties : demosampleapp_i18n_i18n_properties,
 	demosampleapp_jsconfig_json : demosampleapp_jsconfig_json,
 	demosampleapp_pages_application_about_page : demosampleapp_pages_application_about_page,
